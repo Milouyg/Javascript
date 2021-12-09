@@ -1,0 +1,43 @@
+body{
+    background-color: blanchedalmond;
+}
+
+/* # Staat voor id */
+/* Gap is de afstand tussen 2 elementen */
+#koelkast{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 10px;
+}
+
+/* Padding zorgt voor ruimte in de binnenkant */
+/* min-height zorgt voor de grote van de inhoud */
+section{
+    border: 2px solid black;
+    padding: 10px;
+    min-height: 200px;
+
+}
+
+/* Denk aan het woordje trouble = top, right, bottom en left ( 0, 0,10 ,0 )*/
+h2{
+    margin: 0 0 10px 0; 
+} 
+
+.rood{
+    color: red;
+}
+
+.groen{
+    color: green;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: lightskyblue;
+    color:navy;
+    font-size: 18px;
+    border: 2px solid black;
+}
