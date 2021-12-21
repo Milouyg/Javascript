@@ -1,0 +1,13 @@
+body{
+    background-color: bisque;
+}
+
+#container{
+    background-color: aqua;
+    width: 700px;
+    margin: auto;
+}
+
+img{
+    width: 500px;
+}

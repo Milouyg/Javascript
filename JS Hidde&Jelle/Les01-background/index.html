@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achtergrond</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="kopje">Museum Online Javascript</h1>
+    <p  id="mkBlauw">Maak achtegrond blauw</p>
+    <p id="mkGroen">Maak achtergrond groen</p>
+    <p id="mkPurple">Maak achtergrond purple</p>
+    <p  id="mkYellow">Maak achtegrond yellow</p>
+    <p id="mkOrange">Maak achtergrond orange</p>
+    <p id="mkBlack">Maak achtergrond black</p>
+    <p id="mkRed">Maak achtergrond red</p>
+    <p id="mkBrown">Maak achtergrond brown</p>
+
+    <script>
+        const kopje = document.getElementById("kopje");
+        const mkBlauw = document.getElementById('mkBlauw');
+        const mkGroen = document.getElementById("mkGroen");
+        const mkPurple = document.getElementById("mkPurple");
+        const mkYellow = document.getElementById('mkYellow');
+        const mkOrange = document.getElementById("mkOrange");
+        const mkBlack = document.getElementById("mkBlack");
+        const mkRed = document.getElementById("mkRed");
+        const mkBrown = document.getElementById("mkBrown");
+
+        kopje.style.backgroundColor = "pink"
+
+        kopje.addEventListener('click', vooruitKnopje);
+        mkBlauw.addEventListener("click",voeruitBlauw);
+        mkGroen.addEventListener("click", voeruitGroen);
+        mkPurple.addEventListener("click", voeruitPurple);
+        mkYellow.addEventListener("click",voeruitYellow);
+        mkOrange.addEventListener("click", voeruitOrange);
+        mkBlack.addEventListener("click", voeruitBlack);
+        mkRed.addEventListener("click", voeruitRed);
+        mkBrown.addEventListener("click", voeruitBrown);
+
+        function vooruitKnopje(){
+            kopje.style.backgroundColor = "yellow"
+            kopje.style.color = "black";
+        }
+
+        function voeruitBlauw(){
+            document.body.style.backgroundColor = "blue";
+            document.body.style.color = "white";
+            kopje.style.backgroundColor = "white";
+            kopje.style.color = "black";
+        }
+
+        function voeruitGroen(){
+            document.body.style.backgroundColor = "green"
+            document.body.style.color = "yellow"
+            kopje.style.backgroundColor = "red"
+            kopje.style.color = "greenyellow"
+            mkBlauw.style.color = "palegreen"
+            mkGroen.style.color = "palegreen"
+            mkPurple.style.color = "palegreen"
+        }
+
+        function voeruitPurple(){
+            document.body.style.backgroundColor = "purple"
+            document.body.style.color = "purple"
+            kopje.style.backgroundColor = "pink"
+            kopje.style.color = "plum"
+            mkBlauw.style.color = "plum"
+            mkGroen.style.color = "plum"
+            mkPurple.style.color = "plum"
+            mkYellow.style.color = "plum"
+            mkOrange.style.color = "plum"
+            mkBlack.style.color = "plum"
+            mkRed.style.color = "plum"
+            mkBrown.style.color = "plum"
+        }
+
+        function voeruitYellow(){
+            document.body.style.backgroundColor = "Yellow"
+            document.body.style.color = "black"
+        }
+
+        function voeruitOrange(){
+            document.body.style.backgroundColor = "orange"
+            document.body.style.color = "orangered"
+        }
+
+        function voeruitBlack(){
+            document.body.style.backgroundColor = "black"
+            document.body.style.color = "grey"
+        }
+        function voeruitRed(){
+            document.body.style.backgroundColor = "Red"
+            document.body.style.color = "#f78383"
+        }
+
+        function voeruitBrown(){
+            document.body.style.backgroundColor = "brown"
+            document.body.style.color = "grey"
+        }
+    </script>
+</body>
+</html>
+

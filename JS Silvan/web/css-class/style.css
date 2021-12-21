@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(255, 157, 122);
+    color: black;
+}
+
+.HTML{
+    border: rgb(255, 209, 140) 5px solid;
+    background-color: blanchedalmond;
+    color: black;
+    padding: 20px;
+    margin: 10px;
+
+}
+
+.cheat{
+    border: rgb(255, 209, 140) 5px solid;
+    background-color: blanchedalmond;
+    color: black;
+    padding: 20px;
+    margin: 10px;
+
+}
+
+.git{
+    border: rgb(255, 209, 140) 5px solid;
+    background-color: blanchedalmond;
+    color: black;
+    padding: 20px;
+    margin: 10px;
+
+}
